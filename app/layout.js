@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <Nav />
         {children}
         <footer style={{ marginTop: "3rem", textAlign: "center", color: "#888" }}>
-          Built with Next.js 💙
+          #Absolute cinema ✨
         </footer>
       </body>
     </html>

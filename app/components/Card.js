@@ -7,7 +7,7 @@ export default function Card({ name, blurb, rating, emoji, year,genre,image,id})
   return (
     <article className={styles.card}>
    {image ? (
-        <Image src={image} alt={name} width={200} height={200} />
+        <Image src={image} alt={name} width={350} height={300} />
       ) : (
       <div className={styles.emoji}>{emoji}</div>
       )}
