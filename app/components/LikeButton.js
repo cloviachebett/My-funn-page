@@ -9,6 +9,7 @@ export default function LikeButton() {
    <button onClick={(e) => {
      e.preventDefault();
     e.stopPropagation(); // Stops Next.js Link from triggering
+    console.log("Button was clicked! Current state:", liked);
     setLiked(!liked);
   }}>
     {liked ? "❤️ Liked" : "🤍 Like"}

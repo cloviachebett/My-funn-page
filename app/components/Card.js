@@ -7,7 +7,8 @@ export default function Card({ name, blurb, rating, emoji, year,genre,image,id})
   return (
     <article className={styles.card}>
    {image ? (
-        <Image src={image} alt={name} width={350} height={300} />
+        /*<Image src={image} alt={name} width={250} height={250} border-radius={20} />*/
+         <img src={image} alt={name} className={styles.characterImg} />
       ) : (
       <div className={styles.emoji}>{emoji}</div>
       )}
@@ -16,7 +17,7 @@ export default function Card({ name, blurb, rating, emoji, year,genre,image,id})
        <p>{genre}</p>
       <p>{blurb}</p>
     <div className="card">
-        <LikeButton />
+        < LikeButton />
     </div>
       <p className={styles.stars}>{"⭐".repeat(rating)}</p>
     </article>

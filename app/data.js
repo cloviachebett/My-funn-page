@@ -77,6 +77,27 @@ export const items = [
     blurb: "Instead of traditional magic, this series relies on a video game system mechanic. Sung Jinwoo, the world's weakest hunter, gains the ability to level up indefinitely, transitioning from an underdog to an overwhelmingly powerful Necromancer/Monarch",
     image:"/Solo Leveling.jpeg",
     rating: 7,
+    emoji: "🥷",
+  },
+
+{
+    id: 9,
+    name: "Kaiju no.8",
+    year:2024,
+    genre:"Adventure",
+    blurb: "The story follows Kafka Hibino who, after ingesting a parasitic creature, gains the ability to turn into a kaiju and now must navigate using his power",
+    image:"/Kaiju.jpeg",
+    rating: 7,
     emoji: "👀",
+  },
+  {
+    id: 10,
+    name: "Vinland Saga",
+    year:2019,
+    genre:"Adventure",
+    blurb:"The story follows the life of Thorfinn, who becomes involved with Vikings and war following his father's death at the hands of Askeladd.",
+    image:"/Vinland.jpeg",
+    rating: 4,
+    emoji: "⚜️",
   },
 ];
