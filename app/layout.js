@@ -4,7 +4,6 @@ import Nav from "./components/Nav";
 
 export const metadata = {
   title: "My Fan Page",
-  description: "A page about the things I love.",
 };
 
 export default function RootLayout({ children }) {
